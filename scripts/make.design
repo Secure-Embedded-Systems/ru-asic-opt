@@ -11,7 +11,7 @@ all:
 	@echo "   chipdata     Extract OpenROAD design data to work dir"
 	@echo "   chipclean    Remove intermediate results from OpenROAD work area"
 	@echo "   clean        Remove intermediate results from work dir"
-	@echo "   distclean    Global clean crypto-asic-oss"
+	@echo "   distclean    Global clean ru-asic-opt"
 
 export FOLDER ?= .
 export CHIPTOP ?= $(TOP)
